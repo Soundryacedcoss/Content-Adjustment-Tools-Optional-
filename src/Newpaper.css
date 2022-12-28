@@ -1,158 +1,165 @@
-body{
-    margin-left: 2%;
-    margin-right: 2%;
+body {
+  margin-left: 2%;
+  margin-right: 2%;
 }
-.Nav{
-    border-top:  solid black 2px;
-    border-bottom: solid black 2px;
-    padding: 1em 0 1em 0;
+.Nav {
+  border-top: solid black 2px;
+  border-bottom: solid black 2px;
+  padding: 1em 0 1em 0;
 }
-.Nav__item{
-    display: inline-block;
-    font-size: 18px;
+.Nav__item {
+  display: inline-block;
+  font-size: 18px;
 }
-.Nav--align{
-    float: right;
-}
-
-.Heading__item{
-    font-weight: bold;
-    font-size: 15vw;
-    margin-top: -3%;
-
+.Nav--align {
+  float: right;
 }
 
-.News1__dis__heading{
-    border: "thick solid #0000FF";
+.Heading__item {
+  font-weight: bold;
+  font-size: 15vw;
+  margin-top: -3%;
+}
+
+.News1__dis__heading {
+  border: "thick solid #0000FF";
 }
 /* news1 styling */
 
-.News1{
-    display: flex;
-    column-gap: 5%;
-    margin-bottom: 2%;
-    padding-bottom: 2%;
+.News1 {
+  display: flex;
+  column-gap: 5%;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
 }
-.News1__dis{
-    width: 50%;
-  
+.News1__dis {
+  width: 50%;
 }
-.news1__img{
-    height: auto;
-    width: 50%;
-    background-color: #e0e0e0;
-}
-
-.News2{
-    margin-top: 4%;
-}
-.News2__img{
-    height: auto;
-    width: 390%;
-    background-color: #e0e0e0;
+.news1__img {
+  height: auto;
+  width: 50%;
+  background-color: #e0e0e0;
 }
 
-.News2__dis{
-  
+.News2 {
+  margin-top: 4%;
+}
+.News2__img {
+  height: auto;
+  width: 390%;
+  background-color: #e0e0e0;
+}
+
+.News2__dis {
     text-align: justify;
 }
-.Footer{
+.Footer {
     display: flex;
     column-gap: 4%;
 }
-.Footer_item_head{
-   
-    font-size: 4vw;
-    margin-top: -3%;
-}
-
-.Footer__item_para{
-
+.Footer_item_head {
+  font-size: 4vw;
+  margin-top: -3%;
 }
 
 /* sidebar styling */
-.background{
-    background-color: lightblue;
-    cursor: pointer;
+.background {
+  background-color: lightblue;
+  cursor: pointer;
 }
-.ContentScalingContainer{
-    padding: 3%;
+.ContentScalingContainer {
+  padding: 3%;
 }
-.arrow{
-    width: 30%;
+.arrow {
+  width: 30%;
 }
-.arrow1{
-    width: 2%;
+.arrow1 {
+  width: 2%;
 }
-.ContentScalingContainer{
-    width: 50%;
+.ContentScalingContainer {
+  width: 50%;
 }
-.ContentScaling{
-    display: flex;
-    column-gap: 5%;
+.ContentScaling {
+  display: flex;
+  column-gap: 5%;
 }
-.button{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border-style: none;
-    background-color: #3443f9;
+.button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border-style: none;
+  background-color: #3443f9;
 }
-.ToolsContainer{
-    display: flex;
-    column-gap: 5%;
-    flex-wrap: wrap;
-    margin-left: 2%;
-    margin-top: 2%;
-    padding-bottom: 4%;
-    margin-bottom: 24%; 
+.ToolsContainer {
+  display: flex;
+  column-gap: 5%;
+  flex-wrap: wrap;
+  margin-left: 2%;
+  margin-top: 2%;
+  padding-bottom: 4%;
+  margin-bottom: 24%;
 }
-.Readable-font-container{
-    padding: 4% 2% 4% 5%;
-    width: 40%;
-    
+.Readable-font-container {
+  padding: 4% 2% 4% 5%;
+  width: 40%;
 }
-.FontImg{
-    width: 13%;
-    margin-left: 35%;
+.FontImg {
+  width: 13%;
+  margin-left: 35%;
 }
-.Highlight-title-container{
-    width: 40%;
-    margin-top: 5%;
-    padding: 5%;
+.Highlight-title-container {
+  width: 40%;
+  margin-top: 5%;
+  padding: 5%;
 }
-.Highlight-link-container{
-    width: 50%;
-    margin-top: 4%;
-    padding: 4%;
+.Highlight-link-container {
+  width: 50%;
+  margin-top: 4%;
+  padding: 4%;
 }
-.text-mangnifier-container{
-    width: 40%;
-    padding: 4%;
-    margin-top: 4%;
-}
-
-.align-center-container{
-    width: 40%;
-    margin-top: 4%;
-    /* margin-bottom: 25%; */
-    padding: 5%;
-    padding-bottom:  5%;
-}
-.LineHeightContainer{
-    margin-top: 4%;
-    /* margin-left: 2%; */
-    padding: 2%;
-    padding-right:6%;
+.text-mangnifier-container {
+  width: 40%;
+  padding: 4%;
+  margin-top: 4%;
 }
 
-.align-left-container{
-    width: 40%;
-    padding: 5%;
-    margin-top: 4%;
+.align-center-container {
+  width: 40%;
+  margin-top: 4%;
+  /* margin-bottom: 25%; */
+  padding: 5%;
+  padding-bottom: 5%;
+}
+.LineHeightContainer {
+  margin-top: 4%;
+  /* margin-left: 2%; */
+  padding: 2%;
+  padding-right: 6%;
 }
 
-.letterspacingContainer{
-   margin-top: 4%;
-   padding: 2%;
+.align-left-container {
+  width: 40%;
+  padding: 5%;
+  margin-top: 4%;
+}
+
+.letterspacingContainer {
+  margin-top: 4%;
+  padding: 2%;
+}
+
+.MagnifiedDiv{
+  width: 30%;
+  height: 40px;
+  border: solid black 1 px;
+  background-color: lightblue;
+  overflow: hidden;
+}
+#HoverArea{
+  width: 30%;
+  height: 60px;
+  overflow-x: auto;
+  overflow-y: scroll;
+  border: solid darkblue 2px;
+ font-size: 2vw;
 }

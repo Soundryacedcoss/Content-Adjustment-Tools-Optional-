@@ -132,11 +132,14 @@ export const Newspaper = () => {
         var el = document.elementFromPoint(x, y);
         document.getElementById("HoverArea").innerHTML = el.innerHTML;
       }
-      setIsHover(false);
-    } else {
+    else {
       setDisplay("none");
       setIsHover(true);
     }
+  }
+  else{
+    setDisplay("none");
+  }
   }
   function MagnifierHandler() {
     if (IsClickMagnify === true) {

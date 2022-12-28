@@ -53,15 +53,6 @@ body {
 .News2__dis {
     text-align: justify;
 }
-.Footer {
-    display: flex;
-    column-gap: 4%;
-}
-.Footer_item_head {
-  font-size: 4vw;
-  margin-top: -3%;
-}
-
 /* sidebar styling */
 .background {
   background-color: lightblue;

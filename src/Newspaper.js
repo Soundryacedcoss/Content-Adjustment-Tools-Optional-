@@ -365,57 +365,6 @@ export const Newspaper = () => {
             </p>
           </div>
         </div>
-        <div className="Footer">
-          <div className="Footer__item">
-            <h2
-              className="Footer_item_head"
-              id="title1"
-              style={HighText}
-              onMouseOver={hovertext}
-            >
-              Your Title Here
-            </h2>
-            <p className="Footer__item_para" id="foot2">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
-              eligendi ab quasi error repellat! Impedit ea nobis praesentium
-              vero nostrum obcaecati ipsum, accusamus eius quam ipsa ex animi.
-              Ab tempore rerum veniam numquam eos doloremque labore expedita
-              aliquid enim dolorum, iusto aut laborum omnis libero harum dicta,
-              quasi tempora et.
-            </p>
-          </div>
-          <div className="Footer__item">
-            <h2
-              className="Footer_item_head"
-              id="title2"
-              style={HighText}
-              onMouseOver={hovertext}
-            >
-              Your Title Here
-            </h2>
-            <p className="Footer__item_para" id="foot2">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
-              eligendi ab quasi error repellat! Impedit ea nobis praesentium
-              vero nostrum obcaecati ipsum, accusamus eius quam ipsa ex animi.
-              Ab tempore rerum veniam numquam eos doloremque labore expedita
-              aliquid enim dolorum, iusto aut laborum omnis libero harum dicta,
-              quasi tempora et.
-            </p>
-          </div>
-          <div className="Footer__item">
-            <h2 className="Footer_item_head" id="title3" style={HighText}>
-              Your Title Here
-            </h2>
-            <p className="Footer__item_para" id="foot3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. At
-              eligendi ab quasi error repellat! Impedit ea nobis praesentium
-              vero nostrum obcaecati ipsum, accusamus eius quam ipsa ex animi.
-              Ab tempore rerum veniam numquam eos doloremque labore expedita
-              aliquid enim dolorum, iusto aut laborum omnis libero harum dicta,
-              quasi tempora et.
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   );
